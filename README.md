@@ -10,3 +10,5 @@ https://github.com/henols/growatt-client created a project for a Growatt 1000 In
 
 SACOLAR_5000kW_MODBUS folder use only PyModbus. This code may be harmfull if you are not carefull. It can change holding registers on your inverter, like absorption charge voltage, float charge voltage and max charge current etc. It can even overwright the inverter serial number.
 
+BATTERY: A nice project on communication with pylontech, PACE BMS, TheSunPays etc available at 
+<a href>https://github.com/ClassicDIY/PylonToMQTT</a>
