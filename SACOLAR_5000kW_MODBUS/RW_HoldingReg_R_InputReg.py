@@ -24,12 +24,13 @@ print('Inverter Serial Number: ',get_string(readh, 23, 5))
 print('Inverter Firmware Version: ',get_string(readh, 9, 3))
 print('Modbus Version: ',get_string(readh, 12, 3))
 
-print ('Set absorption charge voltage to 50.8')
-client.write_register(35,508,1)
+#How to write to holding registers. 
+#print ('Set absorption charge voltage to 50.8')
+#client.write_register(35,508,1)
 
 print ('Reading input registers. You can not write to them')
 
-readi=client.read_input_registers(0,127,1) #Start, End, Device adressprint ('Reading the holding registers values. These are also writable')
+readi=client.read_input_registers(0,127,1) #Start, End, Device adressprint
 for i in range(127):
     data=readi.registers[int(i)] #read register id 64
     print(i, data) #print register data
