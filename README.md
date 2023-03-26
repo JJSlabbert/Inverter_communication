@@ -13,4 +13,4 @@ SACOLAR_5000kW_MODBUS folder use only PyModbus. This code may be harmfull if you
 BATTERY: A nice project on communication with pylontech, PACE BMS, TheSunPays etc available at 
 <a href>https://github.com/ClassicDIY/PylonToMQTT</a>
 
-This Pylontech Battery project may be usefull.
+This Pylontech Battery project may be usefull. https://github.com/Interster/PylonTechBattery/blob/master/pyloncom.py
