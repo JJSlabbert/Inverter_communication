@@ -1,2 +1,3 @@
-Exctract any of the comresed files
+Exctract any of the comrpessed files
+
 Libraries used: pyserial, pymodbus, flask
